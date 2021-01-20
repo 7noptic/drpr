@@ -1,0 +1,56 @@
+.header{
+  padding: 35px 20px 55px !important;
+  flex-wrap: wrap;
+  &__top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+    padding-bottom: 40px;
+  }
+  &__logo{
+    transition: $transition4;
+    &:hover{
+      transform: scale(1.05);
+    }
+  }
+  &__left,&__right{
+    display: flex;
+    align-items: center;
+  }
+  &__name{
+    padding-left: 45px;
+    font-weight: 500;
+    font-size: 18px;
+    &:hover{
+      color: $purple;
+    }
+  }
+  &__info{
+    font-size: 14px;
+    padding-right: 60px;
+    text-align: right;
+  }
+  &__btn{
+    padding: 13px 87px;
+  }
+  &__list{
+    display: flex;
+    & > li{
+      padding-right: 100px;
+    }
+  }
+  &__link{
+    font-size: 18px;
+    font-weight: 500;
+    &:hover{
+      color: $purple;
+    }
+  }
+
+}
+@media screen and (max-width: 991px){
+  .header{
+    padding: 20px;
+  }
+}

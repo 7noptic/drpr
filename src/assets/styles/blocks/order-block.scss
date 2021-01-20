@@ -1,0 +1,63 @@
+.order-block {
+  &__text-purple {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: $purple;
+    text-transform: uppercase;
+  }
+
+  &__page-purple {
+    font-weight: 700 !important;
+    font-size: 26px !important;
+    color: $purple;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0 0 30px !important;
+    list-style-type: none;
+    width: 100%;
+
+
+    & > li {
+      border-bottom: 1px dotted #C2C2C2;
+      position: relative;
+      padding: 0;
+      margin-bottom: 5px;
+
+      & > span {
+        background-color: #FFF;
+        margin: 0;
+
+        &.order-block__text {
+          position: relative;
+          margin-right: 7em;
+          padding-right: 2px;
+          bottom: -5px;
+          font-size: 14px;
+          font-weight: 500;
+        }
+
+        &.order-block__page {
+          position: absolute;
+          right: 0;
+          padding-left: 2px;
+          bottom: -5px;
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  &__btn{
+    width: 100%;
+    padding: 19px;
+  }
+}

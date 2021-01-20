@@ -1,0 +1,35 @@
+.info-block__wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.info-block__pagination{
+  position: absolute;
+  bottom: 0;
+
+}
+.swiper-slide{
+  max-height: 750px!important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+  left: 50px;
+  z-index: 1000;
+  bottom: 50px;
+}
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 1px solid #000;
+  &.swiper-pagination-bullet-active {
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+  }
+}

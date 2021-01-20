@@ -1,0 +1,15 @@
+.btn{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #5558DB;
+  color: #fff;
+  transition: $transition4;
+  border-radius: 100px;
+  font-weight: 700;
+  &:hover{
+    background-color:darken(#5558DB, 35%);
+    color: #fff;
+  }
+}

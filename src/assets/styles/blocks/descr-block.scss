@@ -1,0 +1,19 @@
+.descr-block {
+  flex-wrap: wrap;
+  padding: 150px 20px !important;
+justify-content: space-between;
+  &__title {
+    padding-bottom: 50px;
+  }
+
+  &__content {
+    width: 48%;
+    font-weight: 300;
+    font-size: 14px;
+    & > img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

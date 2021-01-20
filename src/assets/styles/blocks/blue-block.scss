@@ -1,0 +1,20 @@
+.blue-block{
+  background-size: cover;
+  &__wrapper{
+  padding: 100px 20px !important;
+    position: relative;
+    &::before{
+      content: url("../img/pills.png");
+      display: block;
+      position: absolute;
+      top: -30px;
+      right: 0;
+    }
+}
+  &__text{
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    width: 80%;
+  }
+}
